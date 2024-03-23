@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Laila Danguir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo animate__animated animate__bounce">Laila
+            <span>Danguir</span>
+        </a>
+        <i class="fa-solid fa-bars" id="menu-icon" onclick="menu()"></i>
+        <nav class="navbar animate__animated animate__bounce">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Skills</a>
+            <a href="#education">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <section class="home animate__animated animate__slideInLeft" id="home">
+
+        <div class="home-content">
+            <h1> Hi it's <span>Laila Danguir</span></h1>
+            <h3 class="text-animation">
+                     I am a <span ></span>
+            </h3>
+            <p>Psssionate about full-stack web development.
+                I am committed to utilizing my creativity and technical skills to design innovative solutions.
+                With solid experience in both front-end and back-end programming,
+                I am dedicated to delivering high-quality results.
+            </p>
+            <div class="social-icons">
+                    <a href="www.linkedin.com/in/laila-danguir"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://codepen.io/Laila-Danguir"><i class="fa-brands fa-codepen"></i></a>
+                    <a href="https://github.com/Laila-Danguir"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.figma.com/file/agoaU4Z4UunNRhUVYomzab/PORTFOLIO-Laila-DANGUIR?type=design&node-id=0-1&mode=design&t=SnKlSWIyQMQGy2uK-0"><i class="fa-brands fa-figma"></i></a>
+
+            </div>
+
+            <a href="CV_DANGUIR_Laila.pdf" class="btn" download="CV_LailaDanguir">
+                Download CV <i class="fa-solid fa-download fa-bounce"></i>
+            </a>
+        </div>
+        <div class="home-img">
+            <img src="images/profile1.png" alt="">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Skills</h2>
+        <div class="service-container animate__animated animate__fadeInUp">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Front-end Development</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>ReactJS</li>
+                </ul>
+              
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-server"></i>
+                <h3>Back-end Development</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>C#</li>
+                    <li>Php</li>
+                  
+                </ul>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>                <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>SQL</li>
+                    <li>NoSQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code-merge"></i>
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Git/GitHub</li>
+                    <li>UML</li>
+                    <li>Merise</li>
+                    <li>ERP : Sage</li>
+                </ul>
+            </div>
+            <!--<div class="services-box">
+                <i class="fa-solid fa-circle-user"></i>                <h3>Qualities</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Time Management</li>
+                    <li>Teamwork</li>
+                    <li>Agile</li>
+                </ul>
+            </div>-->
+        </div>
+    </section>
+
+
+    
+
+
+    <section class="timeline-section" id="education">
+        <div class="button-container">
+            <button class="btn" onclick="showEducation()"><i class="fa-brands fa-readme"></i> Education</button>
+            <button class="btn" onclick="showExperience()"><i class="fa-solid fa-business-time"></i> Internships</button>
+        </div>
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items education">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Bootcamp : MERN full Stack</h3>
+                    <p>Certified Training by Jobintech.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Bachelor Degree</h3>
+                    <p>Computer Engineering Bachelor's Degree</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 - 2020</div>
+                <div class="timeline-content">
+                    <h3>Diploma of Specialized Technician</h3>
+                    <p>DTS: Agricultural Input Marketing</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017-2018</div>
+                <div class="timeline-content">
+                    <h3>Bachelor's Degree in Physical Science</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section class="timeline-section" id="experience"  style="display: none;">
+        <div class="button-container">
+            <button class="btn" onclick="showEducation()"><i class="fa-brands fa-readme"></i> Education</button>
+            <button class="btn" onclick="showExperience()"><i class="fa-solid fa-business-time"></i> Internships</button>
+        </div>
+        <h2 class="heading">Experience</h2>
+        <div class="timeline-items experience">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>ARK-X Talent Factory</h3>
+                    <p><b>internship : Developer FULL STACK MERN</b></p><br>
+                    <p><b>Tasks :</b></p><br>
+                    <p><b>Front-end Development :</b><br>
+                        - Design and develop the UI interface with React.js.<br>
+                        - Ensure smooth navigation and user experience (UX) on the website or application.
+                    </p><br>
+                    <p><b>Back-end Development : </b><br>
+                        - Set up servers and APIs with Node.js and Express.js.<br>
+                        - Ensure route management, data validation, and CRUD operations.
+
+                    </p><br>
+                    <p><b>Database Management:</b><br>
+                        - Design and maintain MongoDB databases. <br>
+                        - Write and optimize queries to access and manipulate
+                        data.
+                    </p><br>
+
+
+
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Sep 2023- Aug 2023</div>
+                <div class="timeline-content">
+                    <h3>By The Way</h3>
+                    <p><b>internship : WEB DESIGNER FULLSTACK</b></p><br>
+                    <p><b>Tasks :</b></p><br>
+                    <p><b>Web and Mobile Application Development :</b><br>
+                        - Creating an application for a consistent user experience
+                        across mobile and web platforms.
+                    </p><br>
+                    <p><b>Responsive Development : </b><br>
+                        - Using modern techniques for dynamic adaptation of the
+                        interface to different screen sizes.<br>
+                        - Integration of frameworks such as Bootstrap for flexible
+                        layout designs.
+                    </p>
+                </div>
+            </div>
+
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017-2018</div>
+                <div class="timeline-content">
+                    <h3>Group OCP</h3>
+                    <p><b>internship : WEB Developer</b></p><br>
+                    <p><b>Subject : 
+                        Feasibility study and development of a web application
+                        for managing fuel tank balances and data.</b></p><br>
+                    <p>
+                        - Front-End Development:
+                        - Design and creation of the user interface using HTML/
+                        CSS/ JavaScript/Bootstrap.
+                    </p><br>
+                </div>
+            </div>
+
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">July-2021</div>
+                <div class="timeline-content">
+                    <h3>IRRIGATECH </h3>
+                    <p><b>internship : Assistant ERP Manager </b></p><br>
+                    <p><b>Tasks :</b></p><br>
+                    <p>
+                        - Management of rights on Sage software.<br>
+                        - User creation.<br>
+                        - Management of invoices & orders.<br>
+                    </p><br>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-container">
+            
+            <div class="projects-box">
+                <a href="https://github.com/Laila-Danguir/Application-Gestion-Hotel"><img src="images/back.png" alt=""></a>
+                <div class="projects-info">
+                    <h4>Application Desktop</h4>
+                    <p>C#</p>
+                </div>
+            </div>
+        
+
+            <div class="projects-box">
+                <a href="https://github.com/Laila-Danguir/AppBlog"><img src="images/front.png" alt=""></a>
+                <div class="projects-info">
+                    <h4>Blog App</h4>
+                    <p>Node js/Express js/MongooDB</p>
+                </div>
+            </div>
+        
+
+            <div class="projects-box">
+                <a href="https://laila-danguir.github.io/Lumenn/"><img src="images/pic2.png" alt=""></a>
+                <div class="projects-info">
+                    <h4>Web Site Lumeen</h4>
+                    <p>HTML/CSS/JavaScript</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <a href=" https://laila-danguir.github.io/Portfolio_Laila-Danguir/"><img src="images/pic3.png" alt=""></a>
+                <div class="projects-info">
+                    <h4>Mon Portfolio</h4>
+                    <p>HTML/CSS/JavaScript</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <a href="https://www.figma.com/file/WZmuK7uW9k6KIFVDiz5xp2/Design-Figma?type=design&mode=design&t=p46FCpvLDM46mEmU-0">
+                    <img src="images/web.png" alt=""></a>
+                <div class="projects-info">
+                    <h4>Figma Design</h4>
+                    <p>Figma</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <a href="">
+                    <img src="images/pic4.png" alt=""></a>
+                <div class="projects-info">
+                    <h4>Landing Page Blog</h4>
+                    <p>ReactJs/HTML/CSS</p>
+                </div>
+            </div>
+
+        
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="example@email.com">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="msg" id="msg" cols="30" rows="8" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="www.linkedin.com/in/laila-danguir"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://codepen.io/Laila-Danguir"><i class="fa-brands fa-codepen"></i></a>
+            <a href="https://github.com/Laila-Danguir"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.figma.com/file/agoaU4Z4UunNRhUVYomzab/PORTFOLIO-Laila-DANGUIR?type=design&node-id=0-1&mode=design&t=SnKlSWIyQMQGy2uK-0"><i class="fa-brands fa-figma"></i></a>
+
+    </div>
+
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#">Skills</a>
+        </li>
+        <li>
+            <a href="#">About Me</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Privacy Policy</a>
+        </li>
+    </ul>
+    <p class="copyright"> Made with ❤️ <br>
+    Copyright &copy; 2024 by Laila Danguir | All Rights Reserved </p>
+    
+    </footer>
+
+
+
+    
+    
+   
+  
+
+    <script src="js/script.js" ></script>
+ 
+</body>
+</html>
+
